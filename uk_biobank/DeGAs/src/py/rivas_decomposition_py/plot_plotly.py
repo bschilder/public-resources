@@ -5,8 +5,7 @@ import pandas as pd
 from logging.config import dictConfig
 from logging import getLogger
 
-import plotly
-import plotly.plotly as py
+from chart_studio import plotly as py
 import plotly.graph_objs as go
 
 
